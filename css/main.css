@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  display: grid;
+  grid-template-areas: banner;
+}
+
+.banner-image {
+  grid-area: banner;
+}
+
+.text {
+  grid-area: banner;
+  align-self: end;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
