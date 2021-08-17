@@ -29,8 +29,9 @@ body {
 }
 
 .text p:first-child {
-  font-size: 1.5rem;
-  margin-bottom: .5rem;
+  font-size: 1.4rem;
+  margin-bottom: .15rem;
+  font-style: italic;
 }
 
 p {
@@ -42,9 +43,9 @@ img {
 }
 
 main {
-margin-top: 1rem;
+margin-top: .75rem;
   display: grid;
-  gap: 1rem;
+  gap: 75rem;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -56,7 +57,9 @@ figure {
 h1 {
   font-weight: normal;
   font-style: italic;
-  margin: 1.7rem 0;
+  margin: 1.6rem 0;
+  font-size: 1.73rem;
+  padding-left: 1rem;
 }
 
 figcaption {
@@ -65,4 +68,10 @@ figcaption {
 
 h2 {
   margin: 0;
+  font-style: italic;
+  font-weight: normal;
+}
+
+dl {
+  margin: .4rem 0 .15;
 }
